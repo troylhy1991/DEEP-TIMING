@@ -21,8 +21,18 @@ Deep learning algorithms show top performance on image classification and object
 * Label-free apoptosis classification using CNN and LSTM Models
   Implemented state-of-art convolutional neural net classifier. Used reccurent model (LSTM) to improve sequence classification performance considering temporal dependency.
 
-* Customized visualization tool from TIMING2-board
+<p align="center">
+  <img src="https://github.com/troylhy1991/DEEP-TIMING/blob/master/imgs/cnn_lstm.PNG" width="600">
+</p>
 
+<p align="center">
+  <img src="https://github.com/troylhy1991/DEEP-TIMING/blob/master/imgs/apoptosis_classification.PNG" width="600">
+</p>
+
+* Customized visualization tool from TIMING2-board
+<p align="center">
+  <img src="https://github.com/troylhy1991/DEEP-TIMING/blob/master/imgs/labelTrack.PNG" width="400">
+</p>
 ## Requirements:
 
 * 64-bit computer with at least 2GHz processor running Windows, Linux or Mac
