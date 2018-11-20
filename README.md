@@ -22,7 +22,7 @@ Deep learning algorithms show top performance on image classification and object
   Implemented state-of-art convolutional neural net classifier. Used reccurent model (LSTM) to improve sequence classification performance considering temporal dependency.
 
 <p align="center">
-  <img src="https://github.com/troylhy1991/DEEP-TIMING/blob/master/imgs/cnn_lstm.PNG" width="600">
+  <img src="https://github.com/troylhy1991/DEEP-TIMING/blob/master/imgs/cnn_lstm.PNG" width="500">
 </p>
 
 <p align="center">
@@ -31,7 +31,7 @@ Deep learning algorithms show top performance on image classification and object
 
 * Customized visualization tool from TIMING2-board
 <p align="center">
-  <img src="https://github.com/troylhy1991/DEEP-TIMING/blob/master/imgs/labelTrack.PNG" width="400">
+  <img src="https://github.com/troylhy1991/DEEP-TIMING/blob/master/imgs/labelTrack.PNG" width="600">
 </p>
 ## Requirements:
 
@@ -59,7 +59,9 @@ Deep learning algorithms show top performance on image classification and object
 (7) Have a cup of coffee, will be ready in several minutes.
 
 ## Usage
+1.DT-Pipeline wil do cell detection, tracking and feature calculation with phase contrast channels; follow the steps in [Deep-TIMING-Pipeline-Demo.ipynb](https://github.com/troylhy1991/DEEP-TIMING/blob/master/DEEP-TIMING-Pipeline-Demo.ipynb);
 
+2.The evaluation data, scripts are included in the [Supplementary Materials](). And the evaluation steps can be fould [here](https://github.com/troylhy1991/DEEP-TIMING/tree/master/docs)
 
 ## Contact
 Email: hlu9@uh.edu
