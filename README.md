@@ -12,6 +12,10 @@ Deep learning algorithms show top performance on image classification and object
 
 * Cell detection leveraging phase-contrast channel and Faster R-CNN algorithm. 
   Trained state-of-art cell detector using [Faster R-CNN](https://github.com/rbgirshick/py-faster-rcnn) model. Tested cell detection performance using different combination of input channels.
+  
+<p align="center">
+  <img src="https://github.com/troylhy1991/DEEP-TIMING/blob/master/imgs/detect_model.PNG" width="400">
+</p>
 
 * Label-free apoptosis classification using CNN and LSTM Models
   Implemented state-of-art convolutional neural net classifier. Used reccurent model (LSTM) to improve sequence classification performance considering temporal dependency.
