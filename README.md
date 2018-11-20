@@ -15,6 +15,7 @@ Deep learning algorithms show top performance on image classification and object
   
 <p align="center">
   <img src="https://github.com/troylhy1991/DEEP-TIMING/blob/master/imgs/detect_model.PNG" width="400">
+  <img src="https://github.com/troylhy1991/DEEP-TIMING/blob/master/imgs/detect_result.PNG" width="400">
 </p>
 
 * Label-free apoptosis classification using CNN and LSTM Models
