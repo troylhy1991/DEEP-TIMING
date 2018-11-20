@@ -7,21 +7,41 @@ Deep learning algorithms show top performance on image classification and object
 
 ## Highlights
 
-* High-quality annotated TIMING Data
-  Leveraging unsupervised algorithm and man-in-the-loop fashion, we generated more than 5,000 nanowell images with cell bounding box annotations, 180 sequences of time-lapse nanowell frames with bounding box as well as track ID annotations and 72,000 cropped cell patches with apoptosis status (positive/negative) annotations.
+* High-quality annotated TIMING Data. 
+  Leveraging unsupervised algorithm and man-in-the-loop fashion, we generated more than 5,000 nanowell images with cell bounding box annotations, 180 sequences of time-lapse nanowell frames with bounding box as well as track ID annotations and 72,000 cropped cell patches with apoptosis status (positive/negative) annotations. Annotated data can be found in the [Deep TIMING Supplementary Materials]() folder.
 
-* Cell detection leveraging phase-contrast channel and Faster R-CNN algorithm
-
+* Cell detection leveraging phase-contrast channel and Faster R-CNN algorithm. 
+  Trained state-of-art cell detector using [Faster R-CNN](https://github.com/rbgirshick/py-faster-rcnn) model. Tested cell detection performance using different combination of input channels.
 
 * Label-free apoptosis classification using CNN and LSTM Models
-
+  Implemented state-of-art convolutional neural net classifier. Used reccurent model (LSTM) to improve sequence classification performance considering temporal dependency.
 
 * Customized visualization tool from TIMING2-board
 
+## Requirements:
 
+* 64-bit computer with at least 2GHz processor running Windows, Linux or Mac
+* CUDA-enabled GPU, memory >= 8 GB recommended
+* Hard drive storage >= 2TB, solid-state hard drive strongly recommended
 
 ## Installation
+(1) Download this repository and put the folder say /HOME_DIRECTORY/DEEP-TIMING/
 
+(2) Download auxiliary modules and test data, and copy the folders to /HOME_DIRECTORY/DEEP-TIMING/ and to /HOME_DIRECTORY/DEEP-TIMING/DATA/raw/. (create folder DATA and subdirectory /raw/ and /results respectively.)
+
+ * [DT2-detector](https://drive.google.com/drive/folders/1Wpe37aHK4fIPuJFnHtGkreXGMnQ1C881?usp=sharing)
+ 
+ * [test data](https://drive.google.com/drive/folders/1gAyU5QkZNY29x9N8DENkYpeJ_B_6Aqq5?usp=sharing)
+ 
+(3) Download and install [Anaconda](https://www.anaconda.com/download/?lang=en-us)
+
+(4) Create the environments for TIMING2-pipeline and TIMING2-board, open Anaconda Prompt, change to DEEP-TIMING home directory /HOME_DIRECTORY/DEEP-TIMING/, and type python setup_env.py
+
+(5) Set up DT-pipeline, in the prompt, type activate DT-pipeline, and then type python setup_DT_pipeline.py
+
+(6) Open another Anaconda Prompt, change to DEEP-TIMING home directory, type activate DT-board, and then type python setup_DT_board.py (independent from step 5)
+
+(7) Have a cup of coffee, will be ready in several minutes.
 
 ## Usage
 
