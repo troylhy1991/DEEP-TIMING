@@ -1,5 +1,5 @@
 # DEEP-TIMING
-Deep Learning Solution to TIMING (Time-lapse Microscopy in Nanowell Grids) Project 
+Deep Learning Solution to TIMING (Time-lapse Microscopy in Nanowell Grids) Project created and maintained by [Single-Cell Lab](http://singlecell.chee.uh.edu/), [FARSight Group](http://www.farsight-toolkit.org/wiki/Main_Page), [STIM Laboratory](http://stim.ee.uh.edu/) and [HULA Lab](https://www.hvnguyen.com/hula-lab) at University of Houston, Houston, Texas.
 
 ## Introduction
 
@@ -7,6 +7,16 @@ Deep learning algorithms show top performance on image classification and object
 
 ## Highlights
 
+*High-quality annotated TIMING Data
+
+
+*Cell detection leveraging phase-contrast channel and Faster R-CNN algorithm
+
+
+*Label-free apoptosis classification using CNN and LSTM Models
+
+
+*Customized visualization tool from TIMING2-board
 
 
 
