@@ -7,16 +7,16 @@ Deep learning algorithms show top performance on image classification and object
 
 ## Highlights
 
-*High-quality annotated TIMING Data
+* High-quality annotated TIMING Data
+  Leveraging unsupervised algorithm and man-in-the-loop fashion, we generated more than 5,000 nanowell images with cell bounding box annotations, 180 sequences of time-lapse nanowell frames with bounding box as well as track ID annotations and 72,000 cropped cell patches with apoptosis status (positive/negative) annotations.
+
+* Cell detection leveraging phase-contrast channel and Faster R-CNN algorithm
 
 
-*Cell detection leveraging phase-contrast channel and Faster R-CNN algorithm
+* Label-free apoptosis classification using CNN and LSTM Models
 
 
-*Label-free apoptosis classification using CNN and LSTM Models
-
-
-*Customized visualization tool from TIMING2-board
+* Customized visualization tool from TIMING2-board
 
 
 
