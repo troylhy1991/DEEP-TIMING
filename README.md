@@ -22,7 +22,7 @@ Deep learning algorithms show top performance on image classification and object
   Implemented state-of-art convolutional neural net classifier. Used reccurent model (LSTM) to improve sequence classification performance considering temporal dependency.
 
 <p align="center">
-  <img src="https://github.com/troylhy1991/DEEP-TIMING/blob/master/imgs/cnn_lstm2.PNG" width="400">
+  <img src="https://github.com/troylhy1991/DEEP-TIMING/blob/master/imgs/cnn-lstm2.PNG" width="400">
   <img src="https://github.com/troylhy1991/DEEP-TIMING/blob/master/imgs/apoptosis_classification.PNG" width="400">
 </p>
 
