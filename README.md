@@ -63,3 +63,6 @@ Deep learning algorithms show top performance on image classification and object
 
 ## Contact
 Email: hlu9@uh.edu
+
+## License
+This code is free for non-commerical use only
